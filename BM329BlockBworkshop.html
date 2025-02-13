@@ -515,7 +515,7 @@ and compare it to other sequenced genomes. (after: time + 2s)[=
 
 (link-reveal-goto: &quot;Do you need help interpreting these results?&quot;, &quot;WGS-help&quot;)[(set:$t to it + time)] 
 
-(link-reveal-goto: &quot;Go back to the $C2 case notes?&quot;, &quot;Case 2&quot;)[(set:$t to it + time)] </tw-passagedata><tw-passagedata pid="19" name="About" tags="no-header" position="350,0" size="100,100">&#39;&#39;Foodbourne Pathogens: A Virtual Escape Room&#39;&#39;
+(link-reveal-goto: &quot;Go back to the $C2 case notes?&quot;, &quot;Case 2&quot;)[(set:$t to it + time)] </tw-passagedata><tw-passagedata pid="19" name="About" tags="no-header" position="350,0" size="100,100">&#39;&#39;Foodborne Pathogens: A Virtual Escape Room&#39;&#39;
 
 This is a virtual escape room, designed by Dr. Morgan Feeney (Strathclyde Institute of Pharmacy and Biomedical Sciences). Please contact her if you note any issues with the escape room code or any broken links.
 
@@ -532,7 +532,7 @@ Many of the organisms featured here are &#39;&#39;potentially pathogenic to huma
 
 (link-goto: &quot;Click to continue reading the instructions&quot;, &quot;About2&quot;)</tw-passagedata><tw-passagedata pid="20" name="Library" tags="" position="975,0" size="100,100">A collection of resources provided for your reference (all links will open in a new window). You may also want to &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/&quot; target=&quot;_blank&quot;&gt;consult the peer-reviewed literature&lt;/a&gt;. 
 
-&lt;a href=&quot;https://www.gov.uk/government/collections/standards-for-microbiology-investigations-smi&quot; target=&quot;_blank&quot;&gt;UK Standards for Microbiology Investigations&lt;/a&gt;
+&lt;a href=&quot;https://www.rcpath.org/profession/publications/standards-for-microbiology-investigations.html&quot; target=&quot;_blank&quot;&gt;UK Standards for Microbiology Investigations&lt;/a&gt;
 
 &lt;a href=&quot;https://bacdive.dsmz.de/&quot; target=&quot;_blank&quot;&gt;BacDive (Bacterial Diversity database)&lt;/a&gt;
 
@@ -1909,7 +1909,7 @@ Back to (link-reveal-goto: &quot;choose another growth medium?&quot;, &quot;plat
 &lt;/table&gt;
 pH 7.5 ± 0.2 @ 25°C]
 &lt;br&gt;
-&lt;a href=&quot;https://asm.org/Protocols/Mannitol-Salt-Agar-Plates-Protocols&quot; target=&quot;_blank&quot;&gt;Read more about Manniol Salt agar&lt;/a&gt; (link will open in a new window)
+&lt;a href=&quot;https://asm.org/Protocols/Mannitol-Salt-Agar-Plates-Protocols&quot; target=&quot;_blank&quot;&gt;Read more about Mannitol Salt agar&lt;/a&gt; (link will open in a new window)
 &lt;br&gt;
 {=
 (set: _lastPassage to (history:)&#39;s last)
@@ -1928,7 +1928,7 @@ Back to (link-reveal-goto: &quot;choose another growth medium?&quot;, &quot;plat
 (set: $notebookC3 to it + (a: &quot;Unknown $C3 does not grow on Mannitol Salt Agar (MSA)&quot;))
 (set: $clicks to it + 1)]]
 
-(else-if: _lastPassage is &quot;plates4&quot;)[ (link: &quot;Click to see the results from streaking unknown $C4 on Mannitol Salt agar&quot;)[Unknown $C4 does no grow on MSA. &lt;br&gt;
+(else-if: _lastPassage is &quot;plates4&quot;)[ (link: &quot;Click to see the results from streaking unknown $C4 on Mannitol Salt agar&quot;)[Unknown $C4 does not grow on MSA. &lt;br&gt;
 Back to (link-reveal-goto: &quot;choose another growth medium?&quot;, &quot;plates4&quot;)[(set:$t to it + time)] or to the (link-reveal-goto: &quot;case $C4 overview?&quot;, &quot;Case 4&quot;)[(set:$t to it + time)]
 (set: $notebookC1 to it + (a: &quot;Unknown $C4 does not grow on Mannitol Salt Agar (MSA)&quot;))
 (set: $clicks to it + 1)]]
